@@ -1,8 +1,3 @@
-; ISR_example.asm: a) Increments/decrements a BCD variable every half second using
-; an ISR for timer 2; b) Generates a 2kHz square wave at pin P3.7 using
-; an ISR for timer 0; and c) in the 'main' loop it displays the variable
-; incremented/decremented using the ISR for timer 0 on the LCD.  Also resets it to 
-; zero if the 'BOOT' pushbutton connected to P4.5 is pressed.
 $NOLIST
 $MODLP52
 $LIST
